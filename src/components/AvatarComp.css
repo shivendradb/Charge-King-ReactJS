@@ -1,0 +1,18 @@
+.avatarComp {
+  width: 160px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.MuiAvatar {
+  margin-left: 8px;
+}
+
+.avatarComp > h3 {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.avatarComp > h4 {
+  font-weight: 500;
+}

@@ -1,0 +1,52 @@
+.about {
+  /* margin-top: -80px; */
+  height: 100vh;
+  position: relative;
+  /* padding-top: -10vh; */
+  background-color: white;
+}
+
+.about__heading {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.about__heading > h1 {
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.about__subHeading {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about__subHeading > h2 {
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 10px;
+  color: #37a2c8;
+}
+
+.about__subHeading > p {
+  text-align: center;
+  /* width: 80vw; */
+}
+
+.about__mission {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about__mission > h4 {
+  font-weight: bold;
+  font-size: 19px;
+  color: #37a2c8;
+  margin-bottom: 5px;
+}
+
+.about__mission > p {
+  font-size: 18px;
+}

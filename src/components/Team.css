@@ -1,0 +1,18 @@
+.team {
+  height: 100vh;
+  padding-top: 30px;
+  background-color: white;
+}
+
+.team > h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.team__avatars {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  justify-content: space-around;
+}

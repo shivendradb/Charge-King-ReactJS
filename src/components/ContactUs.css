@@ -1,0 +1,80 @@
+.contactUs {
+  height: 100vh;
+  display: flex;
+  padding-top: 40px;
+  padding-left: 60px;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.contactUs__formDiv > h1 {
+  padding-top: 30px;
+}
+
+.contactUs__formDiv > h2 {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.contactUs__formDiv > h3 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.contactUs__form {
+  flex: 0.5;
+}
+
+.contactUs__form > h5 {
+  margin-bottom: 8px;
+}
+
+.contactUs__formInput {
+  margin-bottom: 30px;
+  font-size: 8px;
+  width: 300px;
+}
+
+.Message {
+  display: flex;
+  flex: 1;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  padding-bottom: 50px;
+  font-size: 10px;
+  overflow-wrap: break-word;
+}
+
+.contactUs__button {
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 12px;
+  background-color: #2293dd;
+  color: #fff;
+  border: 1px solid #2293dd;
+}
+
+.contactUs__button:hover {
+  cursor: pointer;
+  background-color: #246edb;
+  transition: all 0.5s ease-in;
+}
+
+.contactUs__image > img {
+  height: 450px;
+  width: 100%;
+  object-fit: contain;
+  margin-top: 30px;
+}
+
+/* .contactUs__arrowUp {
+  position: relative;
+  bottom: 0;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+} */

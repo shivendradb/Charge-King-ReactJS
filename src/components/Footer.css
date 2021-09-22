@@ -1,0 +1,39 @@
+.footer {
+  margin-top: 10px;
+  height: 50px;
+  display: flex;
+  position: relative;
+  bottom: 0;
+  align-items: center;
+  color: #fff;
+  background-color: black;
+  padding: 10px;
+  justify-content: center;
+}
+
+.footer__center {
+  display: flex;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footer__center > h1 > span {
+  font-size: 20px;
+}
+
+.footer__rightSide {
+  position: absolute !important;
+  right: 0 !important;
+  margin-right: 80px;
+}
+
+.footer__rightSide > a {
+  margin-right: 10px;
+  color: white;
+}
+
+.footer__rightSide > a:hover {
+  color: #4591f5;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}

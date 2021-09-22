@@ -1,0 +1,66 @@
+.intro {
+  padding-top: -20px;
+  height: 100vh;
+}
+
+.intro > img {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* .intro__heading {
+  margin-top: 0px;
+} */
+
+.intro__heading > h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 100px;
+  /* margin-bottom: 10px; */
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+  animation: animateDown infinite 1.5s;
+  transition: 0.8s ease-in-out;
+}
+
+.intro__downArrow {
+  width: 100px;
+  margin-top: 50vh;
+}
+
+/* .intro__downArrow:hover {
+  cursor: pointer;
+} */
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
