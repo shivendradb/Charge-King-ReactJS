@@ -1,14 +1,16 @@
 .contactUs {
   height: 100vh;
-  display: flex;
-  padding-top: 40px;
-  padding-left: 60px;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  padding-top: 140px;
+  padding-left: 120px;
   justify-content: space-around;
   background-color: white;
 }
 
 .contactUs__formDiv > h1 {
-  padding-top: 30px;
+  margin-top: -40px;
 }
 
 .contactUs__formDiv > h2 {
@@ -34,7 +36,7 @@
 .contactUs__formInput {
   margin-bottom: 30px;
   font-size: 8px;
-  width: 300px;
+  width: 330px;
 }
 
 .Message {
@@ -45,7 +47,6 @@
   padding: 10px;
   padding-bottom: 50px;
   font-size: 10px;
-  overflow-wrap: break-word;
 }
 
 .contactUs__button {
@@ -53,6 +54,7 @@
   padding-left: 12px;
   padding-right: 12px;
   border-radius: 12px;
+  margin-top: 20px;
   background-color: #2293dd;
   color: #fff;
   border: 1px solid #2293dd;

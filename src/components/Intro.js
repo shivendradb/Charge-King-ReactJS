@@ -12,7 +12,7 @@ function Intro() {
                 <h1>Redefining the Electric Vehicle Charging Experience</h1>
             </div>
 
-            <div class="arrow bounce">
+            <div className="arrow bounce">
                 <Link activeClass="active" to="#about" spy={true} smooth={true}>
                     <img src="./down-arrow.svg" alt="" className="intro__downArrow" />
                 </Link>

@@ -5,7 +5,7 @@ import Avatar from '@mui/material/Avatar';
 function AvatarComp({ source, name, designation }) {
     return (
         <div className="avatarComp">
-            <Avatar src={source + ".jpg"} className="MuiAvatar" alt={name} sx={{ width: 140, height: 140 }} />
+            <Avatar src={source + ".jpg"} className="MuiAvatar" alt={name} sx={{ width: 140, height: 140, border: '1px solid black' }} />
 
             <h3>{name}</h3>
             <h4>{designation}</h4>

@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+<h1 align="center">Charge King</h1>
+<h5 align="center">Redefining the Electric Vehicle Charging Experience</h5>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/>
 
-## Available Scripts
+<!-- ![Image of LinkedIn Project](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/1200px-LinkedIn_Logo.svg.png) -->
 
-In the project directory, you can run:
+<!-- <br/> -->
 
-### `yarn start`
+## 🎯 About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I have started this project with the purpose of developing a Web app for the Charge King - a company providing charge stations to the nearest available location. <br/>
+I put a lot of effort into it and I hope that you could like it.<br/><br/>
+The Web App lands you to a Home page, in which you can know about the company along with their founders. And, also the user can contact the company for any issues or enquires.<br/>
+The user can also subscribe to the company's newsletters by sharing their email id's to them.<br/>
+➡️ Go try it and please let me know if you enjoyed it with a ⭐️, I would appreciate it a lot.
+<br/>
+<br/>
 
-The page will reload if you make edits.\
+## ▶️ Demo
+
+Here you can find the demo link:
+
+[https://charge-king.netlify.app/](https://charge-king.netlify.app/)
+
+## 🚀 Technologies
+
+- [React](https://reactjs.org/)
+- [Material-UI Icons](https://material-ui.com/)
+  <br/>
+
+# 📸 Screenshots
+
+![Screenshot of Home](./public/screenshot-home.jpg)
+<br/>
+
+## ✅ Requirements
+
+Before starting you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+
+<br/>
+
+## 🔗 Run Locally
+
+- Clone the project
+
+```bash
+  git clone https://github.com/shivendradb/Charge-King-ReactJS.git
+```
+
+- Go to the project directory
+
+```bash
+  cd LinkedIn-clone
+```
+
+- Install dependencies
+
+```bash
+  npm install
+```
+
+- Start the server
+
+```bash
+  npm start
+```
+
+Note: <br/>
+The page will reload if you make edits. <br/>
 You will also see any lint errors in the console.
 
-### `yarn test`
+You can **contact me** in case of any issues or discrepancies. <br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### **Please let me know if you enjoyed it with a ⭐️, I would appreciate it a lot.**

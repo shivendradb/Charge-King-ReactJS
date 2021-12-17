@@ -5,24 +5,29 @@ import About from './components/About';
 import Team from './components/Team';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import {
+  ScrollingProvider
+} from 'react-scroll-section';
 
 function App() {
   return (
-    <div className="app">
-      <Header />
+    <ScrollingProvider>
+      <div className="app">
+        <Header />
 
-      <Intro />
+        <Intro />
 
-      <About />
-      {/* <hr /> */}
+        <About />
+        {/* <hr /> */}
 
-      <Team />
-      {/* <hr /> */}
+        <Team />
+        {/* <hr /> */}
 
-      <ContactUs />
+        <ContactUs />
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </ScrollingProvider>
   );
 }
 

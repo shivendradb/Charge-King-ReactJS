@@ -1,14 +1,53 @@
 .footer {
-  margin-top: 10px;
-  height: 50px;
+  /* padding-top: 10px; */
+  height: 100vh;
   display: flex;
-  position: relative;
-  bottom: 0;
+  /* position: relative; */
+  /* bottom: 0; */
   align-items: center;
   color: #fff;
   background-color: black;
-  padding: 10px;
+  /* padding: 10px; */
   justify-content: center;
+  flex-direction: column;
+}
+
+.footer__top {
+  text-align: center;
+  color: white;
+}
+
+.footer__top > h1 {
+  font-size: 28px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.footer__subscribe {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.footer__top__subscribeInput {
+  color: black;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.footer__top__subscribeButton {
+  color: #fff;
+  background-color: #dc45a4;
+  font-size: 16px;
+  padding: 12px 14px 12px 14px;
+  height: 50px;
+}
+
+.footer__top__subscribeButton:hover {
+  background-color: #ce2690;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
 }
 
 .footer__center {
@@ -18,17 +57,16 @@
 }
 
 .footer__center > h1 > span {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .footer__rightSide {
-  position: absolute !important;
-  right: 0 !important;
-  margin-right: 80px;
+  margin-bottom: 30px;
 }
 
 .footer__rightSide > a {
   margin-right: 10px;
+  margin-left: 10px;
   color: white;
 }
 
