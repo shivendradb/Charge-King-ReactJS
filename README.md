@@ -1,9 +1,9 @@
-<h1 align="center">Charge King</h1>
-<h5 align="center">Redefining the Electric Vehicle Charging Experience</h5>
+<!-- ![Image of LinkedIn Project](./public/logo.jpg) -->
+<h1 align="center"><img src=./public/logo.jpg width="160" height="40" object-fit="contain" title="logo"></h1>
+<!-- <h1 align="center">Charge King</h1> -->
+<h3 align="center">Redefining the Electric Vehicle Charging Experience</h3>
 
 <br/>
-
-<!-- ![Image of LinkedIn Project](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/1200px-LinkedIn_Logo.svg.png) -->
 
 <!-- <br/> -->
 
